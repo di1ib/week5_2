@@ -1,0 +1,49 @@
+header, 
+footer 
+{
+background-color: lightgrey;
+width:1000px;
+}
+header, .div {
+    padding: 15px;
+    text-align: center;
+}
+.content, .main, .block, footer {
+    display:flex
+}
+.main {
+    background-color: blanchedalmond;
+    flex-direction:column;
+    flex: 0 1 600px
+}
+.block { 
+    justify-content: space-between
+    }
+.block .div {
+    padding: 10px 110px;
+}
+
+.aside {
+    background-color: lightskyblue;
+    flex: 0 1 400px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.main .div {
+    background-color: lightyellow;
+    margin: 10px;
+}
+
+footer .div {
+    background-color: white;
+    margin: 10px 0;
+}
+
+footer {
+    justify-content: space-around;
+}
+h1 {
+    padding: 10px 0 40px;
+    text-align: center;
+}
